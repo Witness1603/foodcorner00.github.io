@@ -1,0 +1,766 @@
+body {
+    font-family: 'Sofia';
+    background-image: url(/Pictures/PizzaBG.jpg); background-size: cover;}
+
+.topnav {
+  list-style-type: none;
+  padding: 0;
+margin: 0;
+ padding-bottom: 100;
+  overflow: hidden;
+  background-color: #333;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.topnav ul li {
+    float:left;
+    display:block;
+}
+.topnav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.topnav ul li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.topnav ul li a.active {
+   background-color: #4CAF50;
+}
+.topnav ul li a.active:hover {
+    background-color: darkgreen;
+}
+#home {
+   padding:0;
+    margin:0;
+    display:block;
+    
+}
+.topnav ul img {
+    float:left;
+    width:50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+bottom:0;}
+.topnav ul img:hover { background-color:black;}
+#login {
+    float: right;
+    text-align: right;
+}
+
+.center {
+      border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2{
+    text-align: center;
+    color:aliceblue;
+}
+.bodyTitle { padding: 50px;}
+ restuname{
+  background-color: lightcyan;
+
+  width: 900px;
+  border: 1px solid black;
+  padding-bottom: 15px;
+  margin: 25px;
+     text-align:justify; 
+       
+}
+   h1{text-align: center; color:aliceblue;
+}
+.box-middle a {
+    text-decoration: none;
+    color:black;
+}
+.box-middle a:hover {
+color: red;
+    background-color: lightgray;
+}
+.box-middle img {
+    margin-top: 10px;
+    border-radius: 50%;
+    width:250px; height:250px;
+}
+.box{
+    float:left;
+    margin: 5px 5px 10px 5px;
+    width: 30%;
+    height: 350px;
+}
+.box a img:hover{
+    background-color:lightgray;
+}
+.box-middle:hover {
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid red;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+}
+
+.box-top {
+    height:25px;
+    background-color:green;
+}
+
+.box-middle {   
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+    height:300px;
+    background-color:white;
+}
+.box-bottom {
+    
+    height:0px;
+    background-color:white;
+}
+.box-bottom:hover {
+    background-color:lightgray;
+}
+
+#box2{
+    margin-left:0;
+}
+
+.box-middle p {
+    margin: 10px 1px 1px 1px;
+}
+
+.city {
+     display: block;
+    float:left;
+}
+.CityName {
+    font-size: 50px;
+    font-style: italic;
+float:left;
+    text-align: right;
+    display:block;
+   
+    color: darkgreen;
+}
+#Index .box-middle {   
+    text-align: center;
+    height:10px;
+    background-color:white;
+}
+.slider {
+    background: url(../Pictures/slider.jpg) no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    @media (max-width: 992px) {
+        min-height: 700px;
+    }
+}
+.slider-title_box {
+  text-align: center; }
+
+.slider-content_wrap h5 {
+  color: #909090;
+  font-weight: 400;
+  margin: 24px 0; }
+
+@media (max-width: 480px) {
+  .form-wrap {
+    margin: 0 !important; } }
+
+.btn-group {
+  width: 100%; }
+  @media (max-width: 576px) {
+    .btn-group {
+      display: block; } }
+.mt-4{margin-top:1.5rem!important}
+
+.btn-group1 {
+  padding: 24px;
+  width: 30%;
+    text-align: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none; }
+  @media (max-width: 576px) {
+    .btn-group1 {
+      width: 100%;
+      border-radius: 3px;
+      margin: 0 0 10px;
+      padding: 17px; } }
+.btn-group2 {
+position:relative;
+  padding: 24px;
+  width: 30%;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid #ccc; }
+  @media (max-width: 576px) {
+    .btn-group2 {
+       
+      width: 100%;
+      border-radius: 3px;
+      margin: 0 0 10px;
+      padding: 17px; } }
+
+.btn-form {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 17px;
+  width: 27%;
+  background: #ff3a6d;
+  color: #ffffff;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+  @media (max-width: 768px) {
+    .btn-form {
+      width: auto; } }
+  @media (max-width: 576px) {
+    .btn-form {
+      width: 100%;
+      border-radius: 3px; } }
+
+.search-icon {
+  font-size: 15px;
+  padding-right: 10px; }
+
+.slider-link {
+  color: #909090;
+  margin: 45px 0 0;
+  font-size: 19px; }
+  @media (max-width: 480px) {
+    .slider-link {
+      margin: 18px 0 0; }
+      .slider-link a,
+      .slider-link span {
+        display: block; } }
+  .slider-link a {
+    color: #909090;
+    text-decoration: underline;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    .slider-link a:hover {
+      color: #fff; }
+  .slider-link span {
+    padding: 0 18px; }
+.cuisines {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+    margin-bottom: 30px;
+    }
+
+    .cuisines > span {
+        position: relative;
+        display: inline-block;
+        font-family:'Sofia';
+        color:darkgreen;
+       font-size: 50px;
+    }
+h2 { font-size: 40px;}
+    .cuisines > span:before,
+    .cuisines > span:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 9999px;
+        height: 1px;
+        background: green;
+    }
+
+    .cuisines > span:before {
+        right: 100%;
+        margin-right: 15px;
+    }
+
+    .cuisines > span:after {
+        left: 100%;
+        margin-left: 15px;
+    }
+.dish-wrap {
+    margin-left: 40px;
+  overflow: hidden;
+  height: 400px;
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  background: #f7f7f7;
+  margin-bottom: 60px; }
+            
+  @media screen and (max-width: 768px) {
+    .dish-wrap {
+      height: auto;
+      margin-bottom: 20px; } }
+            
+  .dish-wrap .dish-img {
+    height: 400px;
+    z-index: -1; }
+            
+  .dish-wrap .desc {
+    padding: 1.5em;
+    text-align: center; }
+            
+    .dish-wrap .desc h2 {
+      font-size: 22px;
+      margin-bottom: 10px; }
+            
+      .dish-wrap .desc h2 a {
+        color: rgba(48, 48, 48, 0.75);
+        text-decoration: none; 
+font-family: 'Sofia'}
+            
+  .dish-wrap .wrap {
+    position: relative;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+            
+  .dish-wrap:hover .wrap {
+    margin-top: -80px; }
+            
+.dish-img
+{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+            
+           .js .animate-box {
+  opacity: 0; }
+            
+            .col-md-4{      
+              
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+                float:left;
+                width:30%;
+}
+.col-md-10{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}
+.col{-ms-flex-preferred-size:0;
+    flex-basis:0;
+    -ms-flex-positive:1;
+    flex-grow:1;max-width:100%}
+            
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.bookingForm {color:white;}
+.bookingForm  span {color: red;}
+.bookingForm > h2 { text-align: center;}
+/* FOOTER */
+.bookingIntro { padding-bottom: 18px;font-size : 18px;}
+.bookingReqs {padding-bottom: 18px; float: left; padding-right: 10px; margin-right: 10px; display:block; width:10em;}
+.form-control { display:block; margin-bottom: 1em;}
+
+.bookingForm > label { 
+    float: left;
+  display: block;
+  width: 8em;
+  padding-right: 1em;
+}
+.bookingForm > input {width:200px;}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+h2 span {color: #5383d3;}
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/* Neamat */
+        
+
+
+
+.theird{
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+    background-image: url(images/4443.png);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    margin-top: -13px
+}
+.theird .back{
+    width: 1100px;
+    height: 610px;
+    display: block;
+    margin: auto 10px;
+    position: relative;
+    bottom: 100px
+}
+
+.theird .con {
+    width:50%;
+	color: #56534c;
+	text-align:center;
+	padding-top:30px;
+    margin: -5px;
+    position: relative;
+    bottom: 600px;
+    left: 460px;
+    line-height: 5px;
+    
+}
+.theird .con .pan{
+    width: 300px;
+    margin-left: 250px;
+    padding: 20px;
+    line-height: 20px
+
+}
+.theird .con h3{
+    font-family: "arial";
+    color: #56534c;
+    letter-spacing: 7px
+}
+.theird .con h6{
+    font-family: "arial";
+    color: #a47d5e;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 5px
+}
+.pas .ref{
+    position: relative;
+     bottom: 900px;
+    left: 1000px;
+    box-shadow: -1px 1px 10px 2px #a5a5a5;
+    
+}
+
+.btn btn-success {
+    color: green;
+    width: 20px;
+}
+
+.theird2{
+position: absolute;
+    top: 520px;
+}
+
+
+.theird3{
+position: absolute;
+    top: 460px;
+}
+/* Mostafa */
+#Register { background-color: #eaeaea; font-family: Arial, sans-serif;
+    width: 350px; padding: 10px;}
+#Register > label { float: left; clear: left; display: block; width: 100px; text-align: right; padding-right: 10px;
+    shape-margin: 10px}
+    #Register > input, #Register >  textarea { margin-top: 10px;  display: block;} #mySubmit { margin-left: 110px; } 
+    
+    select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+    
+   #Register > input[type=button], #Register > input[type=submit], #Register >input[type=reset] {
+  background-color: #00cc66;
+  border: none;
+  width: 100%
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+/* Nouran */
+.text1 {color:white;
+}
+ .chatWindow{
+            border-color: aquamarine;
+        }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th  {
+  border: 1px solid aqua;
+  text-align: left;
+  padding: 8px;
+    color:aquamarine;
+    background-color:dimgray;
+        }
+        
+tr:nth-child(even) {
+  background-color:brown;
+}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: lightcoral;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: darkblue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
